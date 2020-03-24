@@ -3,17 +3,141 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title></title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Krona+One|Open+Sans|Pacifico&display=swap" rel="stylesheet">
+	<style>
+		.preloader {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 9999;
+			background-image: url('img/giphy.gif');
+			background-repeat: no-repeat;
+			background-color: #FFF;
+			background-position: center;
+		}
+
+		.preloader.hidepreloader {
+			display: none;
+	</style>
 </head>
 
 <body>
-	<script src="js/script.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+	<!-- preloader -->
+	<div class="preloader"></div>
+	<!-- preloader slut -->
+	<!-- A grey horizontal navbar that becomes vertical on small screens -->
+	<nav class="navbar navbar-expand-sm bg-light">
 
-</html>
+		<!-- Links -->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Tropic Touch</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Sig Bingo!</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Fakta om</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Beskyt regnskoven</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Video</a>
+			</li>
+		</ul>
+
+	</nav>
+
+	<div class="container">
+
+		<section class="top">
+			<div class="row">
+				<img class="col-sm-3 img-fluid" src="img/mainflam.png" alt="top">
+				<img class="col-sm-3 img-fluid" src="img/ttlogo.png" alt="logo">
+				<img class="col-sm-3 img fluid" src="img/topflowers.png" alt="flowerstop">
+			</div>
+		</section>
+		<section class="bingo">
+			<div class="row">
+				<img class="col-sm-2" src="img/bingoflamingo.png" alt="bingo">
+				<h3>Sig Bingo til din flamingo</h3>
+				<div class="row">
+					<div class="col-sm-4 rounded bg-success text-white">
+						orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="fakta">
+			<div class="row">
+				<img class="col-sm-2" src="img/bottle.png" alt="flaske">
+				<h3>Fakta om Tropic Touch</h3>
+				<div class="row">
+					<div class="col-sm-4 rounded bg-success text-white">
+						orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="beskyt">
+			<div class="row">
+				<img class="col-sm-2 float-right" src="img/flamingopar.png" alt="par">
+				<h3>Beskyt regnskoven</h3>
+				<div class="row">
+					<div class="col-sm-4 rounded bg-success text-white">
+						orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="video">
+			<div class="row">
+				<h3>Video</h3>
+
+				<article>Lorem Ipsum etc.</article>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 "><img class="col-2 float-left" src="img/vidflam.png" alt="video"></div>
+				<div class="row">
+					<div class="col-sm-4 rounded bg-success text-white float-right">
+						orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div><!-- container -->
+	<script src=js/jquery.js>
+
+	</script>
+	<!-- Preloader jquery -->
+	<script>
+		$(window).load(function() {
+			$('.preloader').fadeOut('slow');
+		});
+	</script>
+	<!-- Preloader jquery slut-->
+
+	<!-- Preloader vanilla js -->
+	<script>
+		window.addEventListener('load', function() {
+			document.querySelector('.preloader').classList.add("hidepreloader");
+		});
+	</script>
+	<!-- Preloader vanilla js slut -->
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+</body></html>
