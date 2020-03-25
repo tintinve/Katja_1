@@ -7,45 +7,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title></title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Krona+One|Open+Sans|Pacifico&display=swap" rel="stylesheet">
-	<style>
-		.preloader {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			z-index: 9999;
-			background-image: url('img/giphy.gif');
-			background-repeat: no-repeat;
-			background-color: #FFF;
-			background-position: center;
-		}
-
-		.preloader.hidepreloader {
-			display: none;
-	</style>
 </head>
 
-<body>
-	<!-- preloader -->
-	<div class="preloader"></div>
-	<!-- preloader slut -->
-	<!-- A grey horizontal navbar that becomes vertical on small screens -->
-	<nav class="navbar navbar-expand-sm bg-light">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-		<!-- Links -->
+	<nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-center">
+
 		<ul class="navbar-nav">
 			<li class="nav-item">
-				<a class="nav-link" href="#">Tropic Touch</a>
+				<a class="nav-link" href="#section1">Tropic Touch</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Sig Bingo!</a>
+				<a class="nav-link" href="#section2">Sig bingo</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Fakta om</a>
+				<a class="nav-link" href="#section3">Fakta</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">Beskyt regnskoven</a>
@@ -54,68 +33,45 @@
 				<a class="nav-link" href="#">Video</a>
 			</li>
 		</ul>
-
 	</nav>
 
-	<div class="container">
-
-		<section class="top">
-			<div class="row">
-				<img class="col-sm-3 img-fluid" src="img/mainflam.png" alt="top">
-				<img class="col-sm-3 img-fluid" src="img/ttlogo.png" alt="logo">
-				<img class="col-sm-3 img fluid" src="img/topflowers.png" alt="flowerstop">
-			</div>
-		</section>
-		<section class="bingo">
-			<div class="row">
-				<img class="col-sm-2" src="img/bingoflamingo.png" alt="bingo">
-				<h3>Sig Bingo til din flamingo</h3>
-				<div class="row">
-					<div class="col-sm-4 rounded bg-success text-white">
-						orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="fakta">
-			<div class="row">
-				<img class="col-sm-2" src="img/bottle.png" alt="flaske">
-				<h3>Fakta om Tropic Touch</h3>
-				<div class="row">
-					<div class="col-sm-4 rounded bg-success text-white">
-						orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="beskyt">
-			<div class="row">
-				<img class="col-sm-2 float-right" src="img/flamingopar.png" alt="par">
-				<h3>Beskyt regnskoven</h3>
-				<div class="row">
-					<div class="col-sm-4 rounded bg-success text-white">
-						orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="video">
-			<div class="row">
-				<h3>Video</h3>
-
-				<article>Lorem Ipsum etc.</article>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 "><img class="col-2 float-left" src="img/vidflam.png" alt="video"></div>
-				<div class="row">
-					<div class="col-sm-4 rounded bg-success text-white float-right">
-						orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					</div>
-				</div>
-			</div>
-		</section>
-
-	</div><!-- container -->
+	<div  id="section1" class="container-fluid bg-success some-class">
+		<div>
+			<h1>Tropic Touch</h1>
+			<p>here is where I would like my top image</p>
+		</div>
+		<h1>Some image</h1>
+	</div>
+	<div id="section2" class="container-fluid bg-warning some-class">
+		<div>
+			<h1>Tropic Touch</h1>
+			<p>here is where I would like my top image</p>
+		</div>
+		<h1>Some image</h1>
+	</div>
+	<div class="container-fluid bg-secondary some-class">
+		<div>
+			<h1>Tropic Touch</h1>
+			<p>here is where I would like my top image</p>
+		</div>
+		<h1>Some image</h1>
+	</div>
+	<div class="container-fluid bg-danger some-class">
+		<div>
+			<h1>Tropic Touch</h1>
+			<p>here is where I would like my top image</p>
+		</div>
+		<h1>Some image</h1>
+	</div>
+	<div class="container-fluid bg-info some-class">
+		<div>
+			<h1>Tropic Touch</h1>
+			<p>here is where I would like my top image</p>
+		</div>
+		<h1>Some image</h1>
+	</div>
+	<!--- div slut -->
+	<script src="main.js"></script>
 	<script src=js/jquery.js>
 
 	</script>
@@ -124,16 +80,19 @@
 		$(window).load(function() {
 			$('.preloader').fadeOut('slow');
 		});
+		window.addEventListener('load', function() {
+			document.querySelector('.preloader').classList.add("hidepreloader");
+		});
+		$(document).ready(function() {
+			$('.header').height($(window).height());
+		})
 	</script>
 	<!-- Preloader jquery slut-->
 
 	<!-- Preloader vanilla js -->
-	<script>
-		window.addEventListener('load', function() {
-			document.querySelector('.preloader').classList.add("hidepreloader");
-		});
-	</script>
+
 	<!-- Preloader vanilla js slut -->
+
 
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
